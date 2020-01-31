@@ -1,4 +1,4 @@
-package chapter1;
+package chapter1a;
 
 public class RedheadDuck extends Duck{
 

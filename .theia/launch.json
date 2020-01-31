@@ -7,6 +7,20 @@
       "type": "java",
       "name": "CodeLens (Launch) - DuckSimulator",
       "request": "launch",
+      "mainClass": "chapter1a.DuckSimulator",
+      "projectName": "HFDesignPatterns_78865508"
+   },
+   {
+      "type": "java",
+      "name": "CodeLens (Launch) - DuckSimulator",
+      "request": "launch",
+      "mainClass": "chapter1b.DuckSimulator",
+      "projectName": "HFDesignPatterns_78865508"
+   },
+   {
+      "type": "java",
+      "name": "CodeLens (Launch) - DuckSimulator",
+      "request": "launch",
       "mainClass": "chapter1.DuckSimulator",
       "projectName": "HFDesignPatterns_78865508"
    },

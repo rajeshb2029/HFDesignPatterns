@@ -1,4 +1,4 @@
-package chapter1;
+package chapter1a;
 
 public abstract class Duck {
     public void quack() {

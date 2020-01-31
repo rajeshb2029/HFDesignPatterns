@@ -1,4 +1,4 @@
-package chapter1;
+package chapter1a;
 
 public class DuckSimulator{
 
@@ -6,6 +6,7 @@ public class DuckSimulator{
         MallardDuck duck1 = new MallardDuck();
         RedheadDuck duck2 = new RedheadDuck();
 
+        System.out.println("Duck simualtion");
         duck1.display();
         duck1.quack();
         duck1.swim();
@@ -17,7 +18,7 @@ public class DuckSimulator{
     }
 
     public static void main(String[] args){
-        DuckSimulator simulator = new DuckSimulator();
+        DuckSimulator simulator = new chapter1a.DuckSimulator();
 
         simulator.launchSimulation1();;
     }
