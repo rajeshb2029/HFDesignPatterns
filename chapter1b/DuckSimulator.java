@@ -3,34 +3,36 @@ package chapter1b;
 public class DuckSimulator{
 
     private void launchSimulation1(){
-        MallardDuck duck1 = new MallardDuck();
-        RedheadDuck duck2 = new RedheadDuck();
-        RubberDuck duck3 = new RubberDuck();
-        WoodenDuck duck4 = new WoodenDuck();
+        MallardDuck mallardDuck = new MallardDuck();
+        RedheadDuck readheadDuck = new RedheadDuck();
+        RubberDuck rubberDuck = new RubberDuck();
+        WoodenDuck woodenDuck = new WoodenDuck();
 
         System.out.println("Duck simualtion");
-        duck1.display();
-        duck1.performQuack();
-        duck1.performFly();
-        duck1.swim();
+        mallardDuck.display();
+        mallardDuck.performQuack();
+        mallardDuck.performFly();
+        mallardDuck.swim();
 
         System.out.println();
-        duck2.display();
-        duck2.performQuack();
-        duck2.performFly();
-        duck2.swim();
+        readheadDuck.display();
+        readheadDuck.performQuack();
+        readheadDuck.performFly();
+        readheadDuck.swim();
 
         System.out.println();
-        duck3.display();
-        duck3.performQuack();
-        duck3.performFly();
-        duck3.swim();
+        rubberDuck.display();
+        rubberDuck.performQuack();
+        rubberDuck.performFly();
+        rubberDuck.swim();
 
         System.out.println();
-        duck4.display();
-        duck4.performQuack();
-        duck4.performFly();
-        duck4.swim();
+        woodenDuck.display();
+        woodenDuck.performQuack();
+        woodenDuck.performFly();
+        woodenDuck.swim();
+        woodenDuck.setFlyBehavior(new RocketFly());
+        woodenDuck.performFly();
     }
 
     public static void main(String[] args){

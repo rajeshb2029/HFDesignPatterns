@@ -3,14 +3,7 @@
   // Hover to view descriptions of existing attributes.
   "version": "0.2.0",
   "configurations": [
-   {
-      "type": "java",
-      "name": "CodeLens (Launch) - DuckSimulator",
-      "request": "launch",
-      "mainClass": "chapter1a.DuckSimulator",
-      "projectName": "HFDesignPatterns_78865508"
-   },
-   {
+    {
       "type": "java",
       "name": "CodeLens (Launch) - DuckSimulator",
       "request": "launch",
@@ -21,7 +14,7 @@
       "type": "java",
       "name": "CodeLens (Launch) - DuckSimulator",
       "request": "launch",
-      "mainClass": "chapter1.DuckSimulator",
+      "mainClass": "chapter1a.DuckSimulator",
       "projectName": "HFDesignPatterns_78865508"
    },
    {
